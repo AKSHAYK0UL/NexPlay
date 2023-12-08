@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "725646893210",
+    "firebase_url": "https://movies-4c160-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "movies-4c160",
+    "storage_bucket": "movies-4c160.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725646893210:android:dade46e27a897606fb7f23",
+        "android_client_info": {
+          "package_name": "com.example.nex_play"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725646893210-u2micgubkrqg89ujlo3nnhfdeuoovg82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMS0zpo8uZpRa7QU9s8YVaL5z14B5lh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725646893210-u2micgubkrqg89ujlo3nnhfdeuoovg82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

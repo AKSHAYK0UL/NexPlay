@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDnSGsCLVgJUKajDGR-hilUZ73ROkjUsBg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>725646893210</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.nexMovies</string>
+	<key>PROJECT_ID</key>
+	<string>movies-4c160</string>
+	<key>STORAGE_BUCKET</key>
+	<string>movies-4c160.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:725646893210:ios:17cec67339d8f015fb7f23</string>
+	<key>DATABASE_URL</key>
+	<string>https://movies-4c160-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
