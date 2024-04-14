@@ -39,6 +39,16 @@ class _LoginScreenState extends State<LoginScreen> {
         _emailController.text,
         _passwordController.text,
       );
+      String? devicetoken = await FirebaseMessaging.instance.getToken();
+      List<String> tokenlist =
+          Provider.of<DeviceTokens>(navigatorkey.currentContext!, listen: false)
+              .deviceToken;
+      int index = tokenlist.indexWhere((element) => element == devicetoken);
+      if (index < 0) {
+        await Provider.of<DeviceTokens>(navigatorkey.currentContext!,
+                listen: false)
+            .storeToken(devicetoken);
+      }
       navigatorkey.currentState!.pop();
     } on FirebaseAuthException catch (_) {
       navigatorkey.currentState!.pop();
@@ -107,10 +117,12 @@ class _LoginScreenState extends State<LoginScreen> {
                     SizedBox(
                       height: _mediaQ.height * 0.400,
                       width: double.infinity,
-                      child: Lottie.asset(
-                        'assets/sign.json',
-                        fit: BoxFit.fitHeight,
-                        repeat: false,
+                      child: Center(
+                        child: Lottie.asset(
+                          'assets/sign.json',
+                          fit: BoxFit.fitHeight,
+                          repeat: false,
+                        ),
                       ),
                     ),
                     Positioned(

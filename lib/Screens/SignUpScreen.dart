@@ -49,7 +49,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
           Provider.of<DeviceTokens>(navigatorkey.currentContext!, listen: false)
               .deviceToken;
       int index = tokenlist.indexWhere((element) => element == devicetoken);
-      if (index == -1) {
+      if (index < 0) {
         await Provider.of<DeviceTokens>(navigatorkey.currentContext!,
                 listen: false)
             .storeToken(devicetoken);
@@ -128,10 +128,12 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     SizedBox(
                       height: _mediaQ.height * 0.400,
                       width: double.infinity,
-                      child: Lottie.asset(
-                        'assets/sign.json',
-                        fit: BoxFit.fitHeight,
-                        repeat: false,
+                      child: Center(
+                        child: Lottie.asset(
+                          'assets/sign.json',
+                          fit: BoxFit.fitHeight,
+                          repeat: false,
+                        ),
                       ),
                     ),
                     Positioned(

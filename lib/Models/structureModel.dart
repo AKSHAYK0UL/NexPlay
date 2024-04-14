@@ -16,7 +16,7 @@ class MovieModel {
   List downloadUrls;
   String youtubeUrl;
   String releasedOn;
-  double rating;
+  num rating;
   MovieModel({
     required this.youtubeUrl,
     required this.rating,

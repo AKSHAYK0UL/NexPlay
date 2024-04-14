@@ -237,7 +237,7 @@ class _NewAddandCommingSoonScreenState
       appBar: AppBar(
         actions: [
           if (FirebaseAuth.instance.currentUser!.uid ==
-              'fRpNJUdbbIhmWt9VV7J376eWuVA3')
+              'TuvybxINm7S1o6ifkneSu4odd0e2')
             IconButton(
               onPressed: () {
                 Navigator.of(context)

@@ -114,7 +114,7 @@ class _CommingSoonDetailsScreenState extends State<CommingSoonDetailsScreen> {
             ),
             actions: [
               if (FirebaseAuth.instance.currentUser!.uid ==
-                  'fRpNJUdbbIhmWt9VV7J376eWuVA3')
+                  'TuvybxINm7S1o6ifkneSu4odd0e2')
                 IconButton(
                   onPressed: () {
                     Navigator.of(context).pushNamed(
@@ -124,7 +124,7 @@ class _CommingSoonDetailsScreenState extends State<CommingSoonDetailsScreen> {
                   icon: const Icon(Icons.edit),
                 ),
               if (FirebaseAuth.instance.currentUser!.uid ==
-                  'fRpNJUdbbIhmWt9VV7J376eWuVA3')
+                  'TuvybxINm7S1o6ifkneSu4odd0e2')
                 IconButton(
                   onPressed: () async {
                     showDialog(
@@ -154,7 +154,7 @@ class _CommingSoonDetailsScreenState extends State<CommingSoonDetailsScreen> {
                               ),
                             ),
                             if (FirebaseAuth.instance.currentUser!.uid ==
-                                'fRpNJUdbbIhmWt9VV7J376eWuVA3')
+                                'TuvybxINm7S1o6ifkneSu4odd0e2')
                               TextButton(
                                 onPressed: () async {
                                   await Provider.of<CommingSoonModelFunction>(

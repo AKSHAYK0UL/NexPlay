@@ -15,7 +15,7 @@ class AnimeModel {
   List downloadUrls;
   String youtubeUrl;
   String releasedOn;
-  double rating;
+  num rating;
   AnimeModel({
     required this.youtubeUrl,
     required this.rating,

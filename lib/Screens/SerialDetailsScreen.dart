@@ -117,7 +117,7 @@ class _WebSeriesDetailScreenState extends State<WebSeriesDetailScreen> {
             ),
             actions: [
               if (FirebaseAuth.instance.currentUser!.uid ==
-                  'fRpNJUdbbIhmWt9VV7J376eWuVA3')
+                  'TuvybxINm7S1o6ifkneSu4odd0e2')
                 IconButton(
                   onPressed: () {
                     Navigator.of(context).pushNamed(WebseriesINPUT.routeName,
@@ -126,7 +126,7 @@ class _WebSeriesDetailScreenState extends State<WebSeriesDetailScreen> {
                   icon: const Icon(Icons.edit),
                 ),
               if (FirebaseAuth.instance.currentUser!.uid ==
-                  'fRpNJUdbbIhmWt9VV7J376eWuVA3')
+                  'TuvybxINm7S1o6ifkneSu4odd0e2')
                 IconButton(
                   onPressed: () async {
                     showDialog(
@@ -311,7 +311,9 @@ class _WebSeriesDetailScreenState extends State<WebSeriesDetailScreen> {
                                 color: Colors.yellow,
                               ),
                               Text(
-                                '$_movierating.',
+                                _movierating.toString().length == 1
+                                    ? '$_movierating.0.'
+                                    : '$_movierating.',
                                 style: Theme.of(context).textTheme.bodyMedium,
                               ),
                             ],
