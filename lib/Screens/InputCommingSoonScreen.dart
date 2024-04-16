@@ -74,7 +74,6 @@ class _InputCommingSoonScreenState extends State<InputCommingSoonScreen> {
       );
     } finally {
       navigatorkey.currentState!.pop();
-      navigatorkey.currentState!.pop();
     }
   }
 
