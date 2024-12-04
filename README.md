@@ -1,6 +1,6 @@
 Welcome to my app, where you can create an account using your email and start exploring the exciting world of movies, web series, and anime.
 
-Home
+<h1>Home<h1>
 
 Once you're in, you'll be greeted with our home tab, where you can stay up-to-date with the most recent addded movies and upcoming releases.
 
